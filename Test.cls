@@ -1,7 +1,7 @@
 global class AddressCountryRelationshipHandler implements Loop.IApexDataSource {
     
     private string countryAddress = 'ApexSoqlAddress'; 
-    private string contactLanguage = 'ApexSoqlContact'; 
+    private string contactLanguage = 'ApeSoqlContact'; 
     
     public Set<string> getGlobalDescribe() {
         // Return a set of object names that this Apex class will provide data for.
